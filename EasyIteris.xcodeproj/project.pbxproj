@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		204F389F233509A600A6223B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F389E233509A600A6223B /* AppDelegate.swift */; };
-		204F38A1233509A600A6223B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38A0233509A600A6223B /* ViewController.swift */; };
-		204F38A4233509A600A6223B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A2233509A600A6223B /* Main.storyboard */; };
 		204F38A6233509A900A6223B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A5233509A900A6223B /* Assets.xcassets */; };
 		204F38A9233509A900A6223B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A7233509A900A6223B /* LaunchScreen.storyboard */; };
 		204F38B4233509A900A6223B /* EasyIterisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38B3233509A900A6223B /* EasyIterisTests.swift */; };
 		204F38BF233509A900A6223B /* EasyIterisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38BE233509A900A6223B /* EasyIterisUITests.swift */; };
+		204F38D3233531FF00A6223B /* SimulationFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38D1233531FF00A6223B /* SimulationFormViewController.swift */; };
+		204F38D4233531FF00A6223B /* SimulationFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204F38D2233531FF00A6223B /* SimulationFormViewController.xib */; };
+		204F38D72335391B00A6223B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 204F38D62335391B00A6223B /* Localizable.strings */; };
+		204F38D923353A0E00A6223B /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38D823353A0E00A6223B /* LocalizableStrings.swift */; };
+		204F38DB23353AA500A6223B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38DA23353AA500A6223B /* String.swift */; };
+		204F38DE2335401900A6223B /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38DD2335401900A6223B /* CurrencyField.swift */; };
+		204F38E02335407900A6223B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38DF2335407900A6223B /* Double.swift */; };
+		204F38E42335592900A6223B /* SimulationResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38E22335592900A6223B /* SimulationResultViewController.swift */; };
+		204F38E52335592900A6223B /* SimulationResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204F38E32335592900A6223B /* SimulationResultViewController.xib */; };
 		260827A116B41A31749FC879 /* Pods_EasyIterisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */; };
 		65D8AE6CCB66098EBB81AEFE /* Pods_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */; };
 		978081C2B4D3A6D3AA323DA4 /* Pods_EasyIteris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */; };
@@ -40,8 +47,6 @@
 		127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F389B233509A600A6223B /* EasyIteris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyIteris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F389E233509A600A6223B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		204F38A0233509A600A6223B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		204F38A3233509A600A6223B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		204F38A5233509A900A6223B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204F38A8233509A900A6223B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204F38AA233509A900A6223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		204F38BA233509A900A6223B /* EasyIterisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyIterisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F38BE233509A900A6223B /* EasyIterisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyIterisUITests.swift; sourceTree = "<group>"; };
 		204F38C0233509A900A6223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204F38D1233531FF00A6223B /* SimulationFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationFormViewController.swift; sourceTree = "<group>"; };
+		204F38D2233531FF00A6223B /* SimulationFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimulationFormViewController.xib; sourceTree = "<group>"; };
+		204F38D62335391B00A6223B /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		204F38D823353A0E00A6223B /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		204F38DA23353AA500A6223B /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		204F38DD2335401900A6223B /* CurrencyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
+		204F38DF2335407900A6223B /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		204F38E22335592900A6223B /* SimulationResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultViewController.swift; sourceTree = "<group>"; };
+		204F38E32335592900A6223B /* SimulationResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimulationResultViewController.xib; sourceTree = "<group>"; };
 		22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.release.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.release.xcconfig"; sourceTree = "<group>"; };
 		5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,16 +138,17 @@
 		204F389D233509A600A6223B /* EasyIteris */ = {
 			isa = PBXGroup;
 			children = (
+				204F38DC2335400D00A6223B /* Components */,
 				204F38CF233515E300A6223B /* Services */,
 				204F38CE233515DB00A6223B /* Presentation */,
 				204F38CD233515CC00A6223B /* Extensions */,
 				204F38CC233515C300A6223B /* Entities */,
 				204F389E233509A600A6223B /* AppDelegate.swift */,
-				204F38A0233509A600A6223B /* ViewController.swift */,
-				204F38A2233509A600A6223B /* Main.storyboard */,
 				204F38A5233509A900A6223B /* Assets.xcassets */,
 				204F38A7233509A900A6223B /* LaunchScreen.storyboard */,
 				204F38AA233509A900A6223B /* Info.plist */,
+				204F38D62335391B00A6223B /* Localizable.strings */,
+				204F38D823353A0E00A6223B /* LocalizableStrings.swift */,
 			);
 			path = EasyIteris;
 			sourceTree = "<group>";
@@ -166,6 +181,8 @@
 		204F38CD233515CC00A6223B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				204F38DA23353AA500A6223B /* String.swift */,
+				204F38DF2335407900A6223B /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -173,6 +190,8 @@
 		204F38CE233515DB00A6223B /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				204F38E12335590800A6223B /* SimulationResult */,
+				204F38D52335320600A6223B /* SimulationForm */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -182,6 +201,32 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		204F38D52335320600A6223B /* SimulationForm */ = {
+			isa = PBXGroup;
+			children = (
+				204F38D1233531FF00A6223B /* SimulationFormViewController.swift */,
+				204F38D2233531FF00A6223B /* SimulationFormViewController.xib */,
+			);
+			path = SimulationForm;
+			sourceTree = "<group>";
+		};
+		204F38DC2335400D00A6223B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				204F38DD2335401900A6223B /* CurrencyField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		204F38E12335590800A6223B /* SimulationResult */ = {
+			isa = PBXGroup;
+			children = (
+				204F38E22335592900A6223B /* SimulationResultViewController.swift */,
+				204F38E32335592900A6223B /* SimulationResultViewController.xib */,
+			);
+			path = SimulationResult;
 			sourceTree = "<group>";
 		};
 		3DE396C3DE82285551CAB738 /* Pods */ = {
@@ -306,8 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				204F38A9233509A900A6223B /* LaunchScreen.storyboard in Resources */,
+				204F38E52335592900A6223B /* SimulationResultViewController.xib in Resources */,
+				204F38D72335391B00A6223B /* Localizable.strings in Resources */,
 				204F38A6233509A900A6223B /* Assets.xcassets in Resources */,
-				204F38A4233509A600A6223B /* Main.storyboard in Resources */,
+				204F38D4233531FF00A6223B /* SimulationFormViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +466,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204F38A1233509A600A6223B /* ViewController.swift in Sources */,
+				204F38D3233531FF00A6223B /* SimulationFormViewController.swift in Sources */,
+				204F38E42335592900A6223B /* SimulationResultViewController.swift in Sources */,
+				204F38D923353A0E00A6223B /* LocalizableStrings.swift in Sources */,
+				204F38DB23353AA500A6223B /* String.swift in Sources */,
+				204F38DE2335401900A6223B /* CurrencyField.swift in Sources */,
+				204F38E02335407900A6223B /* Double.swift in Sources */,
 				204F389F233509A600A6223B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,14 +508,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		204F38A2233509A600A6223B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				204F38A3233509A600A6223B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		204F38A7233509A900A6223B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
