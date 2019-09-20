@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204F389F233509A600A6223B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F389E233509A600A6223B /* AppDelegate.swift */; };
+		204F38A1233509A600A6223B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38A0233509A600A6223B /* ViewController.swift */; };
+		204F38A4233509A600A6223B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A2233509A600A6223B /* Main.storyboard */; };
+		204F38A6233509A900A6223B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A5233509A900A6223B /* Assets.xcassets */; };
+		204F38A9233509A900A6223B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A7233509A900A6223B /* LaunchScreen.storyboard */; };
+		204F38B4233509A900A6223B /* EasyIterisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38B3233509A900A6223B /* EasyIterisTests.swift */; };
+		204F38BF233509A900A6223B /* EasyIterisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38BE233509A900A6223B /* EasyIterisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		204F38B0233509A900A6223B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204F3893233509A600A6223B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204F389A233509A600A6223B;
+			remoteInfo = EasyIteris;
+		};
+		204F38BB233509A900A6223B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204F3893233509A600A6223B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204F389A233509A600A6223B;
+			remoteInfo = EasyIteris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204F389B233509A600A6223B /* EasyIteris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyIteris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		204F389E233509A600A6223B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		204F38A0233509A600A6223B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		204F38A3233509A600A6223B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		204F38A5233509A900A6223B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		204F38A8233509A900A6223B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		204F38AA233509A900A6223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204F38AF233509A900A6223B /* EasyIterisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyIterisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204F38B3233509A900A6223B /* EasyIterisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyIterisTests.swift; sourceTree = "<group>"; };
+		204F38B5233509A900A6223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204F38BA233509A900A6223B /* EasyIterisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyIterisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204F38BE233509A900A6223B /* EasyIterisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyIterisUITests.swift; sourceTree = "<group>"; };
+		204F38C0233509A900A6223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204F3898233509A600A6223B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F38AC233509A900A6223B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F38B7233509A900A6223B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204F3892233509A600A6223B = {
+			isa = PBXGroup;
+			children = (
+				204F389D233509A600A6223B /* EasyIteris */,
+				204F38B2233509A900A6223B /* EasyIterisTests */,
+				204F38BD233509A900A6223B /* EasyIterisUITests */,
+				204F389C233509A600A6223B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		204F389C233509A600A6223B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204F389B233509A600A6223B /* EasyIteris.app */,
+				204F38AF233509A900A6223B /* EasyIterisTests.xctest */,
+				204F38BA233509A900A6223B /* EasyIterisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204F389D233509A600A6223B /* EasyIteris */ = {
+			isa = PBXGroup;
+			children = (
+				204F389E233509A600A6223B /* AppDelegate.swift */,
+				204F38A0233509A600A6223B /* ViewController.swift */,
+				204F38A2233509A600A6223B /* Main.storyboard */,
+				204F38A5233509A900A6223B /* Assets.xcassets */,
+				204F38A7233509A900A6223B /* LaunchScreen.storyboard */,
+				204F38AA233509A900A6223B /* Info.plist */,
+			);
+			path = EasyIteris;
+			sourceTree = "<group>";
+		};
+		204F38B2233509A900A6223B /* EasyIterisTests */ = {
+			isa = PBXGroup;
+			children = (
+				204F38B3233509A900A6223B /* EasyIterisTests.swift */,
+				204F38B5233509A900A6223B /* Info.plist */,
+			);
+			path = EasyIterisTests;
+			sourceTree = "<group>";
+		};
+		204F38BD233509A900A6223B /* EasyIterisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				204F38BE233509A900A6223B /* EasyIterisUITests.swift */,
+				204F38C0233509A900A6223B /* Info.plist */,
+			);
+			path = EasyIterisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204F389A233509A600A6223B /* EasyIteris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204F38C3233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIteris" */;
+			buildPhases = (
+				204F3897233509A600A6223B /* Sources */,
+				204F3898233509A600A6223B /* Frameworks */,
+				204F3899233509A600A6223B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyIteris;
+			productName = EasyIteris;
+			productReference = 204F389B233509A600A6223B /* EasyIteris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204F38AE233509A900A6223B /* EasyIterisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204F38C6233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIterisTests" */;
+			buildPhases = (
+				204F38AB233509A900A6223B /* Sources */,
+				204F38AC233509A900A6223B /* Frameworks */,
+				204F38AD233509A900A6223B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204F38B1233509A900A6223B /* PBXTargetDependency */,
+			);
+			name = EasyIterisTests;
+			productName = EasyIterisTests;
+			productReference = 204F38AF233509A900A6223B /* EasyIterisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		204F38B9233509A900A6223B /* EasyIterisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204F38C9233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIterisUITests" */;
+			buildPhases = (
+				204F38B6233509A900A6223B /* Sources */,
+				204F38B7233509A900A6223B /* Frameworks */,
+				204F38B8233509A900A6223B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204F38BC233509A900A6223B /* PBXTargetDependency */,
+			);
+			name = EasyIterisUITests;
+			productName = EasyIterisUITests;
+			productReference = 204F38BA233509A900A6223B /* EasyIterisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		204F3893233509A600A6223B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Decio Montanhani";
+				TargetAttributes = {
+					204F389A233509A600A6223B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					204F38AE233509A900A6223B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 204F389A233509A600A6223B;
+					};
+					204F38B9233509A900A6223B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 204F389A233509A600A6223B;
+					};
+				};
+			};
+			buildConfigurationList = 204F3896233509A600A6223B /* Build configuration list for PBXProject "EasyIteris" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 204F3892233509A600A6223B;
+			productRefGroup = 204F389C233509A600A6223B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204F389A233509A600A6223B /* EasyIteris */,
+				204F38AE233509A900A6223B /* EasyIterisTests */,
+				204F38B9233509A900A6223B /* EasyIterisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204F3899233509A600A6223B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F38A9233509A900A6223B /* LaunchScreen.storyboard in Resources */,
+				204F38A6233509A900A6223B /* Assets.xcassets in Resources */,
+				204F38A4233509A600A6223B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F38AD233509A900A6223B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F38B8233509A900A6223B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204F3897233509A600A6223B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F38A1233509A600A6223B /* ViewController.swift in Sources */,
+				204F389F233509A600A6223B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F38AB233509A900A6223B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F38B4233509A900A6223B /* EasyIterisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F38B6233509A900A6223B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F38BF233509A900A6223B /* EasyIterisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204F38B1233509A900A6223B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204F389A233509A600A6223B /* EasyIteris */;
+			targetProxy = 204F38B0233509A900A6223B /* PBXContainerItemProxy */;
+		};
+		204F38BC233509A900A6223B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204F389A233509A600A6223B /* EasyIteris */;
+			targetProxy = 204F38BB233509A900A6223B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		204F38A2233509A600A6223B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204F38A3233509A600A6223B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		204F38A7233509A900A6223B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204F38A8233509A900A6223B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		204F38C1233509A900A6223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		204F38C2233509A900A6223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204F38C4233509A900A6223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyIteris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.EasyIteris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		204F38C5233509A900A6223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyIteris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.EasyIteris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		204F38C7233509A900A6223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyIterisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.EasyIterisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyIteris.app/EasyIteris";
+			};
+			name = Debug;
+		};
+		204F38C8233509A900A6223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyIterisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.EasyIterisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyIteris.app/EasyIteris";
+			};
+			name = Release;
+		};
+		204F38CA233509A900A6223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyIterisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.EasyIterisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyIteris;
+			};
+			name = Debug;
+		};
+		204F38CB233509A900A6223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyIterisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.EasyIterisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyIteris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204F3896233509A600A6223B /* Build configuration list for PBXProject "EasyIteris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204F38C1233509A900A6223B /* Debug */,
+				204F38C2233509A900A6223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204F38C3233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIteris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204F38C4233509A900A6223B /* Debug */,
+				204F38C5233509A900A6223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204F38C6233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIterisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204F38C7233509A900A6223B /* Debug */,
+				204F38C8233509A900A6223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204F38C9233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIterisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204F38CA233509A900A6223B /* Debug */,
+				204F38CB233509A900A6223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 204F3893233509A600A6223B /* Project object */;
+}
