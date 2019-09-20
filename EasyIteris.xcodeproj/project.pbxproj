@@ -14,6 +14,9 @@
 		204F38A9233509A900A6223B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A7233509A900A6223B /* LaunchScreen.storyboard */; };
 		204F38B4233509A900A6223B /* EasyIterisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38B3233509A900A6223B /* EasyIterisTests.swift */; };
 		204F38BF233509A900A6223B /* EasyIterisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38BE233509A900A6223B /* EasyIterisUITests.swift */; };
+		260827A116B41A31749FC879 /* Pods_EasyIterisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */; };
+		65D8AE6CCB66098EBB81AEFE /* Pods_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */; };
+		978081C2B4D3A6D3AA323DA4 /* Pods_EasyIteris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F389B233509A600A6223B /* EasyIteris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyIteris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F389E233509A600A6223B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		204F38A0233509A600A6223B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		204F38BA233509A900A6223B /* EasyIterisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyIterisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F38BE233509A900A6223B /* EasyIterisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyIterisUITests.swift; sourceTree = "<group>"; };
 		204F38C0233509A900A6223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.release.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.release.xcconfig"; sourceTree = "<group>"; };
+		5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.release.xcconfig"; sourceTree = "<group>"; };
+		73A322B4EF409818C4DCDD9F /* Pods-EasyIterisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyIterisUITests/Pods-EasyIterisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIteris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A78B89EE937FA705A0AB06 /* Pods-EasyIterisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisUITests/Pods-EasyIterisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C93BF50900B59D9028C78AFB /* Pods-EasyIteris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.debug.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.debug.xcconfig"; sourceTree = "<group>"; };
+		D19D7DBB0C5D6A45583072D8 /* Pods-EasyIterisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978081C2B4D3A6D3AA323DA4 /* Pods_EasyIteris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260827A116B41A31749FC879 /* Pods_EasyIterisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D8AE6CCB66098EBB81AEFE /* Pods_EasyIterisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2C28756EACDF4DBE8C517F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */,
+				22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */,
+				127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		204F3892233509A600A6223B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				204F38B2233509A900A6223B /* EasyIterisTests */,
 				204F38BD233509A900A6223B /* EasyIterisUITests */,
 				204F389C233509A600A6223B /* Products */,
+				3DE396C3DE82285551CAB738 /* Pods */,
+				0E2C28756EACDF4DBE8C517F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +124,10 @@
 		204F389D233509A600A6223B /* EasyIteris */ = {
 			isa = PBXGroup;
 			children = (
+				204F38CF233515E300A6223B /* Services */,
+				204F38CE233515DB00A6223B /* Presentation */,
+				204F38CD233515CC00A6223B /* Extensions */,
+				204F38CC233515C300A6223B /* Entities */,
 				204F389E233509A600A6223B /* AppDelegate.swift */,
 				204F38A0233509A600A6223B /* ViewController.swift */,
 				204F38A2233509A600A6223B /* Main.storyboard */,
@@ -125,6 +156,47 @@
 			path = EasyIterisUITests;
 			sourceTree = "<group>";
 		};
+		204F38CC233515C300A6223B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		204F38CD233515CC00A6223B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		204F38CE233515DB00A6223B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		204F38CF233515E300A6223B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3DE396C3DE82285551CAB738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C93BF50900B59D9028C78AFB /* Pods-EasyIteris.debug.xcconfig */,
+				28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */,
+				D19D7DBB0C5D6A45583072D8 /* Pods-EasyIterisTests.debug.xcconfig */,
+				5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */,
+				73A322B4EF409818C4DCDD9F /* Pods-EasyIterisUITests.debug.xcconfig */,
+				93A78B89EE937FA705A0AB06 /* Pods-EasyIterisUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204F38C3233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIteris" */;
 			buildPhases = (
+				6FB899924E17E9FEA6D98BCF /* [CP] Check Pods Manifest.lock */,
 				204F3897233509A600A6223B /* Sources */,
 				204F3898233509A600A6223B /* Frameworks */,
 				204F3899233509A600A6223B /* Resources */,
+				204F38D023352A3300A6223B /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -149,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204F38C6233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIterisTests" */;
 			buildPhases = (
+				E74BF431702F1A18E09D9317 /* [CP] Check Pods Manifest.lock */,
 				204F38AB233509A900A6223B /* Sources */,
 				204F38AC233509A900A6223B /* Frameworks */,
 				204F38AD233509A900A6223B /* Resources */,
@@ -167,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204F38C9233509A900A6223B /* Build configuration list for PBXNativeTarget "EasyIterisUITests" */;
 			buildPhases = (
+				AA8077179A5926D0830479BB /* [CP] Check Pods Manifest.lock */,
 				204F38B6233509A900A6223B /* Sources */,
 				204F38B7233509A900A6223B /* Frameworks */,
 				204F38B8233509A900A6223B /* Resources */,
@@ -250,6 +326,93 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		204F38D023352A3300A6223B /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		6FB899924E17E9FEA6D98BCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyIteris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n# print error to STDERR\necho \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\nexit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		AA8077179A5926D0830479BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyIterisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74BF431702F1A18E09D9317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyIterisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		204F3897233509A600A6223B /* Sources */ = {
@@ -430,40 +593,45 @@
 		};
 		204F38C4233509A900A6223B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93BF50900B59D9028C78AFB /* Pods-EasyIteris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EasyIteris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.EasyIteris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		204F38C5233509A900A6223B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EasyIteris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.iteris.EasyIteris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		204F38C7233509A900A6223B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19D7DBB0C5D6A45583072D8 /* Pods-EasyIterisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +652,7 @@
 		};
 		204F38C8233509A900A6223B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +673,7 @@
 		};
 		204F38CA233509A900A6223B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A322B4EF409818C4DCDD9F /* Pods-EasyIterisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +693,7 @@
 		};
 		204F38CB233509A900A6223B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A78B89EE937FA705A0AB06 /* Pods-EasyIterisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
