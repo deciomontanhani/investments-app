@@ -7,16 +7,28 @@
 
 import UIKit
 
-class SimulationResultViewController: UIViewController {
+class SimulationResultViewController: UIViewController, ViewCustomizable {
+    typealias MainView = SimulationResultView
+
+    var viewModel: SimulationResultViewModelProtocol?
+
+    // MARK: - Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = Localizable.simulationFormTitle.localize()
     }
 
-    static func instantiate() -> SimulationResultViewController {
+    static func instantiate(viewModel: SimulationResultViewModelProtocol = SimulationResultViewModel()) -> SimulationResultViewController {
         let viewController: SimulationResultViewController =
-            SimulationResultViewController(nibName: String(describing: SimulationResultViewController.self), bundle: nil)
+            SimulationResultViewController(nibName: SimulationResultViewController.className,
+                                           bundle: nil)
+        viewController.viewModel = viewModel
         return viewController
+    }
+
+    // MARK: - IBActions
+    @IBAction private func didTapSimulateAgain(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
     }
 }

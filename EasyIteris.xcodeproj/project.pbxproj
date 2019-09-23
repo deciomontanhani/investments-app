@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,23 @@
 		204F38E02335407900A6223B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38DF2335407900A6223B /* Double.swift */; };
 		204F38E42335592900A6223B /* SimulationResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38E22335592900A6223B /* SimulationResultViewController.swift */; };
 		204F38E52335592900A6223B /* SimulationResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204F38E32335592900A6223B /* SimulationResultViewController.xib */; };
+		204F38E72338E74A00A6223B /* SimulationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38E62338E74A00A6223B /* SimulationFormView.swift */; };
+		204F38E92338EC8900A6223B /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38E82338EC8900A6223B /* NSObject.swift */; };
+		204F38EB2338F04F00A6223B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38EA2338F04F00A6223B /* UIColor.swift */; };
+		204F38ED2338F3A700A6223B /* SimulationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38EC2338F3A700A6223B /* SimulationResultView.swift */; };
+		204F38EF2338FF3200A6223B /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38EE2338FF3200A6223B /* UIFont.swift */; };
+		204F38F32339198500A6223B /* ViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38F22339198500A6223B /* ViewCustomizable.swift */; };
+		204F38F52339267500A6223B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38F42339267500A6223B /* UIButton.swift */; };
+		204F390D2339371D00A6223B /* SimulationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F390C2339371D00A6223B /* SimulationResponse.swift */; };
+		204F39112339374700A6223B /* SimulationInvestmentParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F39102339374700A6223B /* SimulationInvestmentParameter.swift */; };
+		204F391323393AF700A6223B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391223393AF700A6223B /* Constants.swift */; };
+		204F391523393BE100A6223B /* SimulationFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391423393BE100A6223B /* SimulationFormViewModel.swift */; };
+		204F391723394C6500A6223B /* SimulationResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391623394C6500A6223B /* SimulationResultViewModel.swift */; };
+		204F391923394D0500A6223B /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391823394D0500A6223B /* ApiClient.swift */; };
+		204F391B23394D4800A6223B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391A23394D4800A6223B /* Resource.swift */; };
+		204F391D23394D7D00A6223B /* GenericResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391C23394D7D00A6223B /* GenericResult.swift */; };
+		204F391F23394DB900A6223B /* URLRequest+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391E23394DB900A6223B /* URLRequest+Resource.swift */; };
+		204F39212339573A00A6223B /* SimulationResultBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F39202339573A00A6223B /* SimulationResultBusiness.swift */; };
 		260827A116B41A31749FC879 /* Pods_EasyIterisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */; };
 		65D8AE6CCB66098EBB81AEFE /* Pods_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */; };
 		978081C2B4D3A6D3AA323DA4 /* Pods_EasyIteris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */; };
@@ -65,6 +82,23 @@
 		204F38DF2335407900A6223B /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		204F38E22335592900A6223B /* SimulationResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultViewController.swift; sourceTree = "<group>"; };
 		204F38E32335592900A6223B /* SimulationResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimulationResultViewController.xib; sourceTree = "<group>"; };
+		204F38E62338E74A00A6223B /* SimulationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationFormView.swift; sourceTree = "<group>"; };
+		204F38E82338EC8900A6223B /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		204F38EA2338F04F00A6223B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		204F38EC2338F3A700A6223B /* SimulationResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultView.swift; sourceTree = "<group>"; };
+		204F38EE2338FF3200A6223B /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		204F38F22339198500A6223B /* ViewCustomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomizable.swift; sourceTree = "<group>"; };
+		204F38F42339267500A6223B /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		204F390C2339371D00A6223B /* SimulationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResponse.swift; sourceTree = "<group>"; };
+		204F39102339374700A6223B /* SimulationInvestmentParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationInvestmentParameter.swift; sourceTree = "<group>"; };
+		204F391223393AF700A6223B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		204F391423393BE100A6223B /* SimulationFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationFormViewModel.swift; sourceTree = "<group>"; };
+		204F391623394C6500A6223B /* SimulationResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultViewModel.swift; sourceTree = "<group>"; };
+		204F391823394D0500A6223B /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		204F391A23394D4800A6223B /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		204F391C23394D7D00A6223B /* GenericResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResult.swift; sourceTree = "<group>"; };
+		204F391E23394DB900A6223B /* URLRequest+Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Resource.swift"; sourceTree = "<group>"; };
+		204F39202339573A00A6223B /* SimulationResultBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultBusiness.swift; sourceTree = "<group>"; };
 		22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.release.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.release.xcconfig"; sourceTree = "<group>"; };
 		5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,8 +172,8 @@
 		204F389D233509A600A6223B /* EasyIteris */ = {
 			isa = PBXGroup;
 			children = (
+				204F38F02339194C00A6223B /* Infrastructure */,
 				204F38DC2335400D00A6223B /* Components */,
-				204F38CF233515E300A6223B /* Services */,
 				204F38CE233515DB00A6223B /* Presentation */,
 				204F38CD233515CC00A6223B /* Extensions */,
 				204F38CC233515C300A6223B /* Entities */,
@@ -174,6 +208,8 @@
 		204F38CC233515C300A6223B /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				204F390C2339371D00A6223B /* SimulationResponse.swift */,
+				204F39102339374700A6223B /* SimulationInvestmentParameter.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -183,6 +219,11 @@
 			children = (
 				204F38DA23353AA500A6223B /* String.swift */,
 				204F38DF2335407900A6223B /* Double.swift */,
+				204F38E82338EC8900A6223B /* NSObject.swift */,
+				204F38EA2338F04F00A6223B /* UIColor.swift */,
+				204F38EE2338FF3200A6223B /* UIFont.swift */,
+				204F38F42339267500A6223B /* UIButton.swift */,
+				204F391E23394DB900A6223B /* URLRequest+Resource.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -199,6 +240,9 @@
 		204F38CF233515E300A6223B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				204F391823394D0500A6223B /* ApiClient.swift */,
+				204F391A23394D4800A6223B /* Resource.swift */,
+				204F391C23394D7D00A6223B /* GenericResult.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -208,6 +252,8 @@
 			children = (
 				204F38D1233531FF00A6223B /* SimulationFormViewController.swift */,
 				204F38D2233531FF00A6223B /* SimulationFormViewController.xib */,
+				204F38E62338E74A00A6223B /* SimulationFormView.swift */,
+				204F391423393BE100A6223B /* SimulationFormViewModel.swift */,
 			);
 			path = SimulationForm;
 			sourceTree = "<group>";
@@ -225,8 +271,29 @@
 			children = (
 				204F38E22335592900A6223B /* SimulationResultViewController.swift */,
 				204F38E32335592900A6223B /* SimulationResultViewController.xib */,
+				204F38EC2338F3A700A6223B /* SimulationResultView.swift */,
+				204F391623394C6500A6223B /* SimulationResultViewModel.swift */,
+				204F39202339573A00A6223B /* SimulationResultBusiness.swift */,
 			);
 			path = SimulationResult;
+			sourceTree = "<group>";
+		};
+		204F38F02339194C00A6223B /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				204F38CF233515E300A6223B /* Services */,
+				204F38F12339196800A6223B /* Protocols */,
+				204F391223393AF700A6223B /* Constants.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		204F38F12339196800A6223B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				204F38F22339198500A6223B /* ViewCustomizable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		3DE396C3DE82285551CAB738 /* Pods */ = {
@@ -254,6 +321,7 @@
 				204F3898233509A600A6223B /* Frameworks */,
 				204F3899233509A600A6223B /* Resources */,
 				204F38D023352A3300A6223B /* SwiftLint */,
+				F716B6092E953012C87BB363 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -413,7 +481,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n# print error to STDERR\necho \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\nexit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 		};
 		AA8077179A5926D0830479BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -459,6 +527,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F716B6092E953012C87BB363 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyIteris/Pods-EasyIteris-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyIteris/Pods-EasyIteris-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyIteris/Pods-EasyIteris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -467,12 +552,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				204F38D3233531FF00A6223B /* SimulationFormViewController.swift in Sources */,
+				204F391323393AF700A6223B /* Constants.swift in Sources */,
 				204F38E42335592900A6223B /* SimulationResultViewController.swift in Sources */,
+				204F38F32339198500A6223B /* ViewCustomizable.swift in Sources */,
+				204F391723394C6500A6223B /* SimulationResultViewModel.swift in Sources */,
 				204F38D923353A0E00A6223B /* LocalizableStrings.swift in Sources */,
+				204F391B23394D4800A6223B /* Resource.swift in Sources */,
+				204F391523393BE100A6223B /* SimulationFormViewModel.swift in Sources */,
+				204F38E92338EC8900A6223B /* NSObject.swift in Sources */,
+				204F39212339573A00A6223B /* SimulationResultBusiness.swift in Sources */,
 				204F38DB23353AA500A6223B /* String.swift in Sources */,
+				204F391D23394D7D00A6223B /* GenericResult.swift in Sources */,
 				204F38DE2335401900A6223B /* CurrencyField.swift in Sources */,
+				204F38ED2338F3A700A6223B /* SimulationResultView.swift in Sources */,
 				204F38E02335407900A6223B /* Double.swift in Sources */,
+				204F39112339374700A6223B /* SimulationInvestmentParameter.swift in Sources */,
+				204F38EF2338FF3200A6223B /* UIFont.swift in Sources */,
+				204F390D2339371D00A6223B /* SimulationResponse.swift in Sources */,
 				204F389F233509A600A6223B /* AppDelegate.swift in Sources */,
+				204F38F52339267500A6223B /* UIButton.swift in Sources */,
+				204F38E72338E74A00A6223B /* SimulationFormView.swift in Sources */,
+				204F38EB2338F04F00A6223B /* UIColor.swift in Sources */,
+				204F391F23394DB900A6223B /* URLRequest+Resource.swift in Sources */,
+				204F391923394D0500A6223B /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,19 +3,19 @@
 //  EasyIterisTests
 //
 //  Created by Decio Montanhani on 20/09/19.
-//  Copyright © 2019 Decio Montanhani. All rights reserved.
 //
 
 import XCTest
 @testable import EasyIteris
 
 class EasyIterisTests: XCTestCase {
-
     override func setUp() {
+        super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
     override func tearDown() {
+        super.tearDown()
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
@@ -30,5 +30,4 @@ class EasyIterisTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

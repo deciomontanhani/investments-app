@@ -7,27 +7,41 @@
 
 import UIKit
 
-class SimulationFormViewController: UIViewController {
+class SimulationFormViewController: UIViewController, ViewCustomizable {
+    typealias MainView = SimulationFormView
+
+    // MARK: - Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupView()
     }
 
-    private func setupView() {
-        title = Localizable.simulationFormTitle.localize()
-
-        UIFont.preferredFont(forTextStyle: .body)
-    }
-
+    // MARK: - Initializers
     static func instantiate() -> SimulationFormViewController {
         let viewController: SimulationFormViewController =
-            SimulationFormViewController(nibName: String(describing: SimulationFormViewController.self), bundle: nil)
+            SimulationFormViewController(nibName: SimulationFormViewController.className, bundle: nil)
         return viewController
+    }
+
+    private func setupView() {
+        mainView.setupView()
+        title = Localizable.simulationFormTitle.localize()
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "",
+                                                           style: .plain,
+                                                           target: nil,
+                                                           action: nil)
     }
 
     // MARK: - IBActions
     @IBAction func didTapSimulate(_ sender: UIButton) {
         navigationController?.pushViewController(SimulationResultViewController.instantiate(), animated: true)
     }
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+
+    // MARK: - Private Methods
+    // MARK: - Public Methods
 }

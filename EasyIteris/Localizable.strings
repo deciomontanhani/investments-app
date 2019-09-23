@@ -6,3 +6,4 @@
   Copyright © 2019 Decio Montanhani. All rights reserved.
 */
 "simulationFormTitle" = "EasyIteris";
+"totalIncomeLabel" = "Rendimento total de R$ %@";
