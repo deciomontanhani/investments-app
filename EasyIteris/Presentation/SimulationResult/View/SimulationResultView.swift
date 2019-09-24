@@ -31,7 +31,6 @@ class SimulationResultView: UIView {
     @IBOutlet weak var annualGrossRateProfit: UILabel!
     @IBOutlet weak var rateProfit: UILabel!
 
-
     var totalIncomeText: String? {
         get { return totalIncome.text }
         set {
@@ -50,7 +49,14 @@ class SimulationResultView: UIView {
             .foregroundColor: UIColor.lightGray
             ])
         attributedString.addAttributes([.foregroundColor: UIColor.appGreen],
-                                       range: NSRange(location: text.count - value.count, length: 5))
+                                       range: NSRange(location: text.count - value.count, length: value.count))
         return attributedString
+    }
+
+    func setupView(viewModel: SimulationResponse?) {
+        netAmount.text = "R$ \(viewModel?.netAmount ?? 0)"
+        initialValue.text = "R$ \(viewModel?.investmentParameter?.investedAmount ?? 0)"
+        grossInvestment.text = "R$ \(viewModel?.grossAmount ?? 0)"
+        totalIncomeText = "R$ \(viewModel?.grossAmountProfit ?? 0)"
     }
 }

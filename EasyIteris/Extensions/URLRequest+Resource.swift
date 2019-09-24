@@ -9,7 +9,19 @@ import Foundation
 
 extension URLRequest {
     init(_ resource: Resource) {
-        self.init(url: resource.url)
-        self.httpMethod = resource.method
+        var url = resource.url
+        if let queryItems = resource.queryItems,
+            var components = URLComponents(url: url, resolvingAgainstBaseURL: false) {
+            components.queryItems = queryItems.map({ (arg0) in
+                let (key, value) = arg0
+
+                return URLQueryItem(name: key, value: value)
+            })
+
+            url = components.url!
+        }
+
+        self.init(url: url)
+        self.httpMethod = resource.method.rawValue
     }
 }

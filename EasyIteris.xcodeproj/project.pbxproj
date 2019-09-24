@@ -38,6 +38,14 @@
 		204F391D23394D7D00A6223B /* GenericResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391C23394D7D00A6223B /* GenericResult.swift */; };
 		204F391F23394DB900A6223B /* URLRequest+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F391E23394DB900A6223B /* URLRequest+Resource.swift */; };
 		204F39212339573A00A6223B /* SimulationResultBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F39202339573A00A6223B /* SimulationResultBusiness.swift */; };
+		204F3923233A451800A6223B /* SimulationQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F3922233A451800A6223B /* SimulationQueryRequest.swift */; };
+		204F3925233A478D00A6223B /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F3924233A478D00A6223B /* Encodable.swift */; };
+		204F3927233A7B5F00A6223B /* SimulationResultShimmerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204F3926233A7B5F00A6223B /* SimulationResultShimmerView.xib */; };
+		204F3929233A7C5200A6223B /* ShimmerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F3928233A7C5200A6223B /* ShimmerItemView.swift */; };
+		204F392B233A806000A6223B /* SimulationResultShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F392A233A806000A6223B /* SimulationResultShimmerView.swift */; };
+		204F392D233A80E100A6223B /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F392C233A80E100A6223B /* Shimmer.swift */; };
+		204F392F233A81DD00A6223B /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F392E233A81DD00A6223B /* Bindable.swift */; };
+		204F3931233A8F6E00A6223B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F3930233A8F6D00A6223B /* UIView.swift */; };
 		260827A116B41A31749FC879 /* Pods_EasyIterisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */; };
 		65D8AE6CCB66098EBB81AEFE /* Pods_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */; };
 		978081C2B4D3A6D3AA323DA4 /* Pods_EasyIteris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */; };
@@ -99,6 +107,14 @@
 		204F391C23394D7D00A6223B /* GenericResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResult.swift; sourceTree = "<group>"; };
 		204F391E23394DB900A6223B /* URLRequest+Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Resource.swift"; sourceTree = "<group>"; };
 		204F39202339573A00A6223B /* SimulationResultBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultBusiness.swift; sourceTree = "<group>"; };
+		204F3922233A451800A6223B /* SimulationQueryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationQueryRequest.swift; sourceTree = "<group>"; };
+		204F3924233A478D00A6223B /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		204F3926233A7B5F00A6223B /* SimulationResultShimmerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimulationResultShimmerView.xib; sourceTree = "<group>"; };
+		204F3928233A7C5200A6223B /* ShimmerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerItemView.swift; sourceTree = "<group>"; };
+		204F392A233A806000A6223B /* SimulationResultShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultShimmerView.swift; sourceTree = "<group>"; };
+		204F392C233A80E100A6223B /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		204F392E233A81DD00A6223B /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		204F3930233A8F6D00A6223B /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.release.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.release.xcconfig"; sourceTree = "<group>"; };
 		5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +226,7 @@
 			children = (
 				204F390C2339371D00A6223B /* SimulationResponse.swift */,
 				204F39102339374700A6223B /* SimulationInvestmentParameter.swift */,
+				204F3922233A451800A6223B /* SimulationQueryRequest.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -224,6 +241,8 @@
 				204F38EE2338FF3200A6223B /* UIFont.swift */,
 				204F38F42339267500A6223B /* UIButton.swift */,
 				204F391E23394DB900A6223B /* URLRequest+Resource.swift */,
+				204F3924233A478D00A6223B /* Encodable.swift */,
+				204F3930233A8F6D00A6223B /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -262,6 +281,8 @@
 			isa = PBXGroup;
 			children = (
 				204F38DD2335401900A6223B /* CurrencyField.swift */,
+				204F3928233A7C5200A6223B /* ShimmerItemView.swift */,
+				204F392C233A80E100A6223B /* Shimmer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -269,9 +290,9 @@
 		204F38E12335590800A6223B /* SimulationResult */ = {
 			isa = PBXGroup;
 			children = (
+				204F3932233A9FFF00A6223B /* View */,
 				204F38E22335592900A6223B /* SimulationResultViewController.swift */,
 				204F38E32335592900A6223B /* SimulationResultViewController.xib */,
-				204F38EC2338F3A700A6223B /* SimulationResultView.swift */,
 				204F391623394C6500A6223B /* SimulationResultViewModel.swift */,
 				204F39202339573A00A6223B /* SimulationResultBusiness.swift */,
 			);
@@ -284,6 +305,7 @@
 				204F38CF233515E300A6223B /* Services */,
 				204F38F12339196800A6223B /* Protocols */,
 				204F391223393AF700A6223B /* Constants.swift */,
+				204F392E233A81DD00A6223B /* Bindable.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -294,6 +316,24 @@
 				204F38F22339198500A6223B /* ViewCustomizable.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		204F3932233A9FFF00A6223B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				204F38EC2338F3A700A6223B /* SimulationResultView.swift */,
+				204F3933233AA00D00A6223B /* Shimmer */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		204F3933233AA00D00A6223B /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				204F3926233A7B5F00A6223B /* SimulationResultShimmerView.xib */,
+				204F392A233A806000A6223B /* SimulationResultShimmerView.swift */,
+			);
+			path = Shimmer;
 			sourceTree = "<group>";
 		};
 		3DE396C3DE82285551CAB738 /* Pods */ = {
@@ -422,6 +462,7 @@
 				204F38E52335592900A6223B /* SimulationResultViewController.xib in Resources */,
 				204F38D72335391B00A6223B /* Localizable.strings in Resources */,
 				204F38A6233509A900A6223B /* Assets.xcassets in Resources */,
+				204F3927233A7B5F00A6223B /* SimulationResultShimmerView.xib in Resources */,
 				204F38D4233531FF00A6223B /* SimulationFormViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,11 +593,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				204F38D3233531FF00A6223B /* SimulationFormViewController.swift in Sources */,
+				204F3929233A7C5200A6223B /* ShimmerItemView.swift in Sources */,
 				204F391323393AF700A6223B /* Constants.swift in Sources */,
 				204F38E42335592900A6223B /* SimulationResultViewController.swift in Sources */,
+				204F3923233A451800A6223B /* SimulationQueryRequest.swift in Sources */,
 				204F38F32339198500A6223B /* ViewCustomizable.swift in Sources */,
 				204F391723394C6500A6223B /* SimulationResultViewModel.swift in Sources */,
 				204F38D923353A0E00A6223B /* LocalizableStrings.swift in Sources */,
+				204F392B233A806000A6223B /* SimulationResultShimmerView.swift in Sources */,
 				204F391B23394D4800A6223B /* Resource.swift in Sources */,
 				204F391523393BE100A6223B /* SimulationFormViewModel.swift in Sources */,
 				204F38E92338EC8900A6223B /* NSObject.swift in Sources */,
@@ -565,8 +609,11 @@
 				204F391D23394D7D00A6223B /* GenericResult.swift in Sources */,
 				204F38DE2335401900A6223B /* CurrencyField.swift in Sources */,
 				204F38ED2338F3A700A6223B /* SimulationResultView.swift in Sources */,
+				204F3931233A8F6E00A6223B /* UIView.swift in Sources */,
+				204F3925233A478D00A6223B /* Encodable.swift in Sources */,
 				204F38E02335407900A6223B /* Double.swift in Sources */,
 				204F39112339374700A6223B /* SimulationInvestmentParameter.swift in Sources */,
+				204F392F233A81DD00A6223B /* Bindable.swift in Sources */,
 				204F38EF2338FF3200A6223B /* UIFont.swift in Sources */,
 				204F390D2339371D00A6223B /* SimulationResponse.swift in Sources */,
 				204F389F233509A600A6223B /* AppDelegate.swift in Sources */,
@@ -574,6 +621,7 @@
 				204F38E72338E74A00A6223B /* SimulationFormView.swift in Sources */,
 				204F38EB2338F04F00A6223B /* UIColor.swift in Sources */,
 				204F391F23394DB900A6223B /* URLRequest+Resource.swift in Sources */,
+				204F392D233A80E100A6223B /* Shimmer.swift in Sources */,
 				204F391923394D0500A6223B /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

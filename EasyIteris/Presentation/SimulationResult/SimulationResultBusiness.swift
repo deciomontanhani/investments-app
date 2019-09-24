@@ -9,27 +9,24 @@ import Foundation
 
 // MARK: - Protocols
 protocol SimulationResultBusinessProtocol {
-    func getSimulation(_ completion: @escaping ((Result<[SimulationResponse]>) -> Void))
+    func getSimulation(queryObject: SimulationQueryRequest, _ completion: @escaping ((Result<SimulationResponse>) -> Void))
 }
 
 class SimulationResultBusiness: SimulationResultBusinessProtocol {
     private let apiClient: APIClientProtocol?
 
-    init(apiClient: APIClientProtocol) {
+    init(apiClient: APIClientProtocol = APIClient()) {
         self.apiClient = apiClient
     }
 
-    func getSimulation(_ completion: @escaping ((Result<[SimulationResponse]>) -> Void)) {
+    func getSimulation(queryObject: SimulationQueryRequest, _ completion: @escaping ((Result<SimulationResponse>) -> Void)) {
         let resource = Resource(url: URL(string: "\(Constants.ApiServer.BaseURL)/calculator/simulate")!)
-        apiClient?.load(resource) { (result) in
+        let params = queryObject.encodedStringDictionary
+
+        apiClient?.get(url: resource.url, params: params) { (result: Result<SimulationResponse>) in
             switch result {
-            case .success(let data):
-                do {
-                    let items = try JSONDecoder().decode([SimulationResponse].self, from: data)
-                    completion(.success(items))
-                } catch {
-                    completion(.failure(error))
-                }
+            case .success(let items):
+                completion(.success(items))
             case .failure(let error):
                 completion(.failure(error))
             }

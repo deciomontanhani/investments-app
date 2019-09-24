@@ -9,24 +9,11 @@ import UIKit
 
 class SimulationFormView: UIView {
     // MARK: - IBOutlets, Getters and Setters
-    @IBOutlet private weak var moneyField: CurrencyField!
-
+    @IBOutlet weak var moneyField: CurrencyField!
     @IBOutlet private weak var dueDateField: UITextField!
-    var dueDateText: String? {
-        get { return dueDateField.text }
-        set {
-            dueDateField.text = newValue
-        }
-    }
-
-    @IBOutlet private weak var percentField: UITextField!
-    var percentText: String? {
-        get { return percentField.text }
-        set {
-            percentField.text = newValue
-        }
-    }
-    @IBOutlet private weak var simulateButton: UIButton!
+    var dueDateText: String?
+    @IBOutlet weak var percentField: UITextField!
+    @IBOutlet weak var simulateButton: UIButton!
 
     // MARK: - Constants
     let datePicker = UIDatePicker()
@@ -41,7 +28,7 @@ class SimulationFormView: UIView {
 
     @objc
     func checkEnableSimulateButton() {
-        if moneyField.doubleValue > 0 && percentText != "" && dueDateText != "" {
+        if moneyField.doubleValue > 0 && percentField.text != "" && dueDateText != "" {
             simulateButton.setEnableState()
         } else {
             simulateButton.setDisableState()
@@ -57,7 +44,7 @@ class SimulationFormView: UIView {
         //ToolBar
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
-        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(donedatePicker))
+        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneDatePicker))
         let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace,
                                           target: nil,
                                           action: nil)
@@ -73,27 +60,17 @@ class SimulationFormView: UIView {
     }
 
     @objc
-    func donedatePicker() {
+    func doneDatePicker() {
         let formatter = DateFormatter()
         formatter.dateFormat = "dd/MM/yyyy"
         dueDateField.text = formatter.string(from: datePicker.date)
+        formatter.dateFormat = "yyyy-MM-dd"
+        dueDateText = formatter.string(from: datePicker.date)
         endEditing(true)
     }
 
     @objc
     func cancelDatePicker() {
         endEditing(true)
-    }
-}
-
-extension SimulationFormView: UITextFieldDelegate {
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        if let nextField = textField.superview?.viewWithTag(textField.tag + 1) as? UITextField {
-            nextField.becomeFirstResponder()
-        } else {
-            textField.resignFirstResponder()
-        }
-
-        return false
     }
 }

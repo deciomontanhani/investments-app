@@ -35,20 +35,4 @@ struct SimulationResponse: Codable {
         case taxesAmount
         case taxesRate
     }
-
-    init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-        annualGrossRateProfit = try values.decodeIfPresent(Float.self, forKey: .annualGrossRateProfit)
-        annualNetRateProfit = try values.decodeIfPresent(Float.self, forKey: .annualNetRateProfit)
-        dailyGrossRateProfit = try values.decodeIfPresent(Float.self, forKey: .dailyGrossRateProfit)
-        grossAmount = try values.decodeIfPresent(Float.self, forKey: .grossAmount)
-        grossAmountProfit = try values.decodeIfPresent(Float.self, forKey: .grossAmountProfit)
-        investmentParameter = try SimulationInvestmentParameter(from: decoder)
-        monthlyGrossRateProfit = try values.decodeIfPresent(Float.self, forKey: .monthlyGrossRateProfit)
-        netAmount = try values.decodeIfPresent(Float.self, forKey: .netAmount)
-        netAmountProfit = try values.decodeIfPresent(Float.self, forKey: .netAmountProfit)
-        rateProfit = try values.decodeIfPresent(Float.self, forKey: .rateProfit)
-        taxesAmount = try values.decodeIfPresent(Float.self, forKey: .taxesAmount)
-        taxesRate = try values.decodeIfPresent(Int.self, forKey: .taxesRate)
-    }
 }

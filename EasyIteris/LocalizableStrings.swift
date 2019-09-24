@@ -10,6 +10,8 @@ import Foundation
 enum Localizable: String {
     case simulationFormTitle
     case totalIncomeLabel
+    case errorTitle
+    case backButton
 
     // MARK: - Public Methods
 

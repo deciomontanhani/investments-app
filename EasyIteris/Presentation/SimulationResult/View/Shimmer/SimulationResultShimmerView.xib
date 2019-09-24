@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SimulationResultShimmerView" customModule="EasyIteris" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nt2-Dd-XIc">
+                    <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-fo-lYI" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                            <rect key="frame" x="78" y="30" width="164" height="20"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="164" id="YUU-U4-uXq"/>
+                                <constraint firstAttribute="height" constant="20" id="phI-SZ-SJl"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4eR-qV-3xG" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                            <rect key="frame" x="48" y="70" width="224" height="55"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="ZOv-9H-Eqb"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fcv-kh-ec5" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                            <rect key="frame" x="78" y="145" width="164" height="20"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="164" id="1dd-pV-OTe"/>
+                                <constraint firstAttribute="height" constant="20" id="RAj-Of-f4r"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="nho-F0-ZhF">
+                            <rect key="frame" x="20" y="222" width="280" height="148"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="i3r-Ea-u6H">
+                                    <rect key="frame" x="0.0" y="0.0" width="280" height="20"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRR-FV-JBr" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="171" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="Fuj-eo-v6d"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eA8-zU-jMo" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="210" y="0.0" width="70" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="70" id="SFd-0p-OHq"/>
+                                                <constraint firstAttribute="height" constant="20" id="k3Z-Oi-p0A"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="PFe-st-p4H">
+                                    <rect key="frame" x="0.0" y="32" width="280" height="20"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Ey-WM-fYF" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="211" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="Sse-h9-Hmm"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JMM-ue-w2g" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="250" y="0.0" width="30" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="Pbg-Ul-Uq8"/>
+                                                <constraint firstAttribute="height" constant="20" id="k8R-ew-esA"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="Meb-5c-qTQ">
+                                    <rect key="frame" x="0.0" y="64" width="280" height="20"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pa9-36-0bR" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="171" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="bGa-70-ObZ"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kkH-d0-7bH" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="210" y="0.0" width="70" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="70" id="Sje-JS-s97"/>
+                                                <constraint firstAttribute="height" constant="20" id="ZeC-g5-Ykh"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="AOc-tA-mmn">
+                                    <rect key="frame" x="0.0" y="96" width="280" height="20"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VV4-pR-Yrg" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="211" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="XTf-MH-H1z"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J54-EE-Wlo" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="250" y="0.0" width="30" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="Qyg-Xz-BAP"/>
+                                                <constraint firstAttribute="height" constant="20" id="fT6-nd-5zQ"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="52z-NB-bob">
+                                    <rect key="frame" x="0.0" y="128" width="280" height="20"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8v-5B-MJv" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="171" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="M2n-vp-Sn4"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9p-t9-cht" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                                            <rect key="frame" x="210" y="0.0" width="70" height="20"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="2MX-7L-S45"/>
+                                                <constraint firstAttribute="width" constant="70" id="BrU-hn-qwt"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ylf-z9-uyy" customClass="ShimmerItemView" customModule="EasyIteris" customModuleProvider="target">
+                            <rect key="frame" x="25" y="483" width="270" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="kAA-AE-r8P"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Df5-fo-lYI" firstAttribute="top" secondItem="nt2-Dd-XIc" secondAttribute="top" constant="30" id="0rD-qa-y9T"/>
+                        <constraint firstItem="Df5-fo-lYI" firstAttribute="centerX" secondItem="nt2-Dd-XIc" secondAttribute="centerX" id="8PK-E7-3MP"/>
+                        <constraint firstAttribute="bottom" secondItem="ylf-z9-uyy" secondAttribute="bottom" constant="20" id="DuB-hm-WHh"/>
+                        <constraint firstItem="Fcv-kh-ec5" firstAttribute="centerX" secondItem="nt2-Dd-XIc" secondAttribute="centerX" id="JnY-IY-fKF"/>
+                        <constraint firstAttribute="trailing" secondItem="ylf-z9-uyy" secondAttribute="trailing" constant="25" id="M7W-Cp-MBI"/>
+                        <constraint firstItem="4eR-qV-3xG" firstAttribute="centerX" secondItem="nt2-Dd-XIc" secondAttribute="centerX" id="NCL-ap-jiB"/>
+                        <constraint firstItem="4eR-qV-3xG" firstAttribute="top" secondItem="Df5-fo-lYI" secondAttribute="bottom" constant="20" id="Qty-jr-MVk"/>
+                        <constraint firstItem="nho-F0-ZhF" firstAttribute="leading" secondItem="nt2-Dd-XIc" secondAttribute="leading" constant="20" id="UHR-Y7-sBY"/>
+                        <constraint firstItem="nho-F0-ZhF" firstAttribute="top" secondItem="Fcv-kh-ec5" secondAttribute="bottom" constant="57" id="WSH-gX-ozs"/>
+                        <constraint firstItem="Fcv-kh-ec5" firstAttribute="top" secondItem="4eR-qV-3xG" secondAttribute="bottom" constant="20" id="ZDc-rV-keW"/>
+                        <constraint firstAttribute="trailing" secondItem="nho-F0-ZhF" secondAttribute="trailing" constant="20" id="Zv6-r7-tpL"/>
+                        <constraint firstItem="ylf-z9-uyy" firstAttribute="leading" secondItem="nt2-Dd-XIc" secondAttribute="leading" constant="25" id="gJa-cZ-oYc"/>
+                        <constraint firstItem="4eR-qV-3xG" firstAttribute="width" secondItem="nt2-Dd-XIc" secondAttribute="width" multiplier="0.7" id="oaI-yk-dEq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="nt2-Dd-XIc" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="I0U-pt-k8X"/>
+                <constraint firstItem="nt2-Dd-XIc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="e6c-vt-2aX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="nt2-Dd-XIc" secondAttribute="bottom" id="kk2-HM-38y"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nt2-Dd-XIc" secondAttribute="trailing" id="sgk-7z-fgW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="topView" destination="nt2-Dd-XIc" id="jGX-pi-FLe"/>
+            </connections>
+            <point key="canvasLocation" x="187.5" y="57.04225352112676"/>
+        </view>
+    </objects>
+</document>

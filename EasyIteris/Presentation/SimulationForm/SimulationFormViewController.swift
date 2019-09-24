@@ -35,7 +35,11 @@ class SimulationFormViewController: UIViewController, ViewCustomizable {
 
     // MARK: - IBActions
     @IBAction func didTapSimulate(_ sender: UIButton) {
-        navigationController?.pushViewController(SimulationResultViewController.instantiate(), animated: true)
+        let viewModel = SimulationResultViewModel(queryObject: SimulationQueryRequest(investedAmount: 1_000,
+                                                                                      rate: 100,
+                                                                                      maturityDate: "2023-03-03"))
+        navigationController?.pushViewController(SimulationResultViewController.instantiate(viewModel: viewModel),
+                                                 animated: true)
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

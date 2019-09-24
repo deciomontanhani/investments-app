@@ -7,3 +7,5 @@
 */
 "simulationFormTitle" = "EasyIteris";
 "totalIncomeLabel" = "Rendimento total de R$ %@";
+"errorTitle" = "Erro!";
+"backButton" = "Voltar";

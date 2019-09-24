@@ -24,28 +24,28 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="707"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lBW-TV-Lzi">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="691"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="693"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado da simulação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65i-Xq-8H6">
-                                    <rect key="frame" x="80" y="28" width="160.5" height="17.5"/>
+                                    <rect key="frame" x="80" y="30" width="160.5" height="17.5"/>
                                     <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 1.088,69" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="pBJ-Lp-328">
-                                    <rect key="frame" x="16" y="65.5" width="288" height="48.5"/>
+                                    <rect key="frame" x="16" y="67.5" width="288" height="48.5"/>
                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="42"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rendimento total de R$ 88,69" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnp-Ft-V5V">
-                                    <rect key="frame" x="16" y="134" width="288" height="17.5"/>
+                                    <rect key="frame" x="16" y="136" width="288" height="17.5"/>
                                     <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="fui-kX-SOC">
-                                    <rect key="frame" x="16" y="191.5" width="288" height="215.5"/>
+                                    <rect key="frame" x="16" y="193.5" width="288" height="215.5"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JMe-mT-HDv">
                                             <rect key="frame" x="0.0" y="0.0" width="288" height="34.5"/>
@@ -135,7 +135,7 @@
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="syf-X2-dF8">
-                                    <rect key="frame" x="16" y="457" width="288" height="214"/>
+                                    <rect key="frame" x="16" y="459" width="288" height="214"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5pa-vn-Dwq">
                                             <rect key="frame" x="0.0" y="0.0" width="288" height="17.5"/>
@@ -247,7 +247,7 @@
                                 <constraint firstItem="fui-kX-SOC" firstAttribute="leading" secondItem="lBW-TV-Lzi" secondAttribute="leading" constant="16" id="43G-XA-zN7"/>
                                 <constraint firstItem="bHo-7f-hDW" firstAttribute="width" secondItem="lBW-TV-Lzi" secondAttribute="width" multiplier="0.35" id="6RB-G4-ggC"/>
                                 <constraint firstItem="pBJ-Lp-328" firstAttribute="top" secondItem="65i-Xq-8H6" secondAttribute="bottom" constant="20" id="8bg-Lx-RGs"/>
-                                <constraint firstItem="65i-Xq-8H6" firstAttribute="top" secondItem="lBW-TV-Lzi" secondAttribute="top" constant="28" id="Azu-iE-4Zy"/>
+                                <constraint firstItem="65i-Xq-8H6" firstAttribute="top" secondItem="lBW-TV-Lzi" secondAttribute="top" constant="30" id="Azu-iE-4Zy"/>
                                 <constraint firstItem="0nB-kd-dcl" firstAttribute="width" secondItem="lBW-TV-Lzi" secondAttribute="width" multiplier="0.35" id="DQd-K0-ujk"/>
                                 <constraint firstItem="65i-Xq-8H6" firstAttribute="centerX" secondItem="lBW-TV-Lzi" secondAttribute="centerX" id="DwH-hE-RF2"/>
                                 <constraint firstItem="syf-X2-dF8" firstAttribute="top" secondItem="fui-kX-SOC" secondAttribute="bottom" constant="50" id="Eyg-8l-moF"/>
