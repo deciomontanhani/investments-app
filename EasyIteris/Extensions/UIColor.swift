@@ -17,7 +17,6 @@ extension UIColor {
     }
 
     open class var disableButtonBackground: UIColor {
-        // UIColor(red: 216 / 255, green: 211 / 255, blue: 207 / 255, alpha: 1.0)
         return #colorLiteral(red: 0.8470588235, green: 0.8274509804, blue: 0.8117647059, alpha: 1)
     }
 }

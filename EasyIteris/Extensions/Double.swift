@@ -16,4 +16,13 @@ extension Double {
         numberFormatter.alwaysShowsDecimalSeparator = true
         return numberFormatter.string(for: self)!
     }
+
+    func toPercent(with locale: Locale = Locale(identifier: "pt_BR")) -> String {
+        let number = self / 100
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .percent
+        numberFormatter.maximumFractionDigits = 2
+        numberFormatter.locale = locale
+        return numberFormatter.string(for: number)!
+    }
 }

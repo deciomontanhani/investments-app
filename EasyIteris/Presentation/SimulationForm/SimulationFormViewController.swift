@@ -35,9 +35,12 @@ class SimulationFormViewController: UIViewController, ViewCustomizable {
 
     // MARK: - IBActions
     @IBAction func didTapSimulate(_ sender: UIButton) {
-        let viewModel = SimulationResultViewModel(queryObject: SimulationQueryRequest(investedAmount: 1_000,
-                                                                                      rate: 100,
-                                                                                      maturityDate: "2023-03-03"))
+        guard let model = mainView.getModel() else {
+            return
+        }
+
+        mainView.clearFields()
+        let viewModel = SimulationResultViewModel(queryObject: model)
         navigationController?.pushViewController(SimulationResultViewController.instantiate(viewModel: viewModel),
                                                  animated: true)
     }

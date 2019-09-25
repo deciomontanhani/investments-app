@@ -17,7 +17,9 @@ protocol APIClientProtocol {
 }
 
 final class APIClient: APIClientProtocol {
-    func get<T>(url: URL, params: [String: String]?, result: @escaping ((Result<T>) -> Void)) where T: Decodable, T: Encodable {
+    func get<T>(url: URL,
+                params: [String: String]?,
+                result: @escaping ((Result<T>) -> Void)) where T: Decodable, T: Encodable {
         let resource = Resource(url: url, queryItems: params)
         self.load(resource) { loadResult in
             let itemResult: Result<T> = loadResult.map { data -> T? in

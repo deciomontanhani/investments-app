@@ -18,7 +18,7 @@ class CurrencyField: UITextField {
     var decimalNumber: NSDecimalNumber { return decimal.numbers }
     var doubleValue: Double { return decimalNumber.doubleValue }
     var integerValue: Int { return decimalNumber.intValue }
-    var maximum: Decimal = 999999999999999999999999999999999.99
+    var maximum: Decimal = 999_999_999_999.99
     private var lastValue: String?
 
     var value: Decimal { return decimal }

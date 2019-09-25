@@ -9,7 +9,8 @@ import Foundation
 
 // MARK: - Protocols
 protocol SimulationResultBusinessProtocol {
-    func getSimulation(queryObject: SimulationQueryRequest, _ completion: @escaping ((Result<SimulationResponse>) -> Void))
+    func getSimulation(queryObject: SimulationQueryRequest,
+                       _ completion: @escaping ((Result<SimulationResponse>) -> Void))
 }
 
 class SimulationResultBusiness: SimulationResultBusinessProtocol {
@@ -19,7 +20,8 @@ class SimulationResultBusiness: SimulationResultBusinessProtocol {
         self.apiClient = apiClient
     }
 
-    func getSimulation(queryObject: SimulationQueryRequest, _ completion: @escaping ((Result<SimulationResponse>) -> Void)) {
+    func getSimulation(queryObject: SimulationQueryRequest,
+                       _ completion: @escaping ((Result<SimulationResponse>) -> Void)) {
         let resource = Resource(url: URL(string: "\(Constants.ApiServer.BaseURL)/calculator/simulate")!)
         let params = queryObject.encodedStringDictionary
 

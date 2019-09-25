@@ -11,4 +11,9 @@ extension String {
     func localize() -> String {
         return NSLocalizedString(self, tableName: "Localizable", bundle: Bundle.main, value: "", comment: "")
     }
+
+    func toDate(format: AppDateFormat) -> Date? {
+        let dateFormat = DateFormatter.appDateFormatter(withFormat: format)
+        return dateFormat.date(from: self)
+    }
 }

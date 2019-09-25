@@ -7,7 +7,25 @@
 		<key>EasyIteris.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>204F389A233509A600A6223B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204F38AE233509A900A6223B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204F38B9233509A900A6223B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

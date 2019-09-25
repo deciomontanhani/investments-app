@@ -12,7 +12,7 @@ class SimulationFormView: UIView {
     @IBOutlet weak var moneyField: CurrencyField!
     @IBOutlet private weak var dueDateField: UITextField!
     var dueDateText: String?
-    @IBOutlet weak var percentField: UITextField!
+    @IBOutlet weak var percentField: PercentField!
     @IBOutlet weak var simulateButton: UIButton!
 
     // MARK: - Constants
@@ -23,16 +23,41 @@ class SimulationFormView: UIView {
         simulateButton.setDisableState()
         showDatePicker()
         let fields = [percentField, dueDateField, moneyField]
-        fields.forEach({ $0?.addTarget(self, action: #selector(checkEnableSimulateButton), for: .editingChanged) })
+        fields.forEach({ $0?.addTarget(self,
+                                       action: #selector(checkEnableSimulateButton),
+                                       for: UIControl.Event.allEditingEvents) })
     }
 
     @objc
     func checkEnableSimulateButton() {
-        if moneyField.doubleValue > 0 && percentField.text != "" && dueDateText != "" {
+        if moneyField.doubleValue > 0
+            && percentField.doubleValue > 0
+            && dueDateText != ""
+            && dueDateField.text != "" {
             simulateButton.setEnableState()
         } else {
             simulateButton.setDisableState()
         }
+    }
+
+    func getModel() -> SimulationQueryRequest? {
+        guard moneyField.doubleValue > 0, let date = dueDateText else {
+            return nil
+        }
+
+        return SimulationQueryRequest(investedAmount: moneyField.doubleValue,
+                                      rate: percentField.percentageValue,
+                                      maturityDate: date)
+    }
+
+    func clearFields() {
+        moneyField.text = "0"
+        moneyField.editingChanged()
+        dueDateField.text = ""
+        dueDateText = nil
+        datePicker.date = Date()
+        percentField.text = ""
+        simulateButton.setDisableState()
     }
 
     func showDatePicker() {
@@ -44,11 +69,14 @@ class SimulationFormView: UIView {
         //ToolBar
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
-        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneDatePicker))
-        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace,
+        let doneButton = UIBarButtonItem(title: "Finalizar",
+                                         style: .plain,
+                                         target: self,
+                                         action: #selector(doneDatePicker))
+        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace,
                                           target: nil,
                                           action: nil)
-        let cancelButton = UIBarButtonItem(title: "Cancel",
+        let cancelButton = UIBarButtonItem(title: "Cancelar",
                                            style: .plain,
                                            target: self,
                                            action: #selector(cancelDatePicker))
@@ -61,11 +89,10 @@ class SimulationFormView: UIView {
 
     @objc
     func doneDatePicker() {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "dd/MM/yyyy"
+        let formatter = DateFormatter.appDateFormatter(withFormat: .ddMMyyyy)
         dueDateField.text = formatter.string(from: datePicker.date)
-        formatter.dateFormat = "yyyy-MM-dd"
-        dueDateText = formatter.string(from: datePicker.date)
+        let apiFormatter = DateFormatter.appDateFormatter(withFormat: .yyyyMMdd)
+        dueDateText = apiFormatter.string(from: datePicker.date)
         endEditing(true)
     }
 

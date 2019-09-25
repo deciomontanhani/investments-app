@@ -13,5 +13,6 @@ struct Constants {
     }
     struct Messages {
         static let Unknown = "Ocorreu um erro inesperado, por favor, tente novamente mais tarde!"
+        static let decodingDateError = "Date string does not match format expected by formatter."
     }
 }

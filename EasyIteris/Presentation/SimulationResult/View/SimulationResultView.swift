@@ -43,7 +43,7 @@ class SimulationResultView: UIView {
     }
 
     // MARK: - Private Methods
-    func setTotalIncomeStyle(_ text: String, _ value: String) -> NSAttributedString? {
+    private func setTotalIncomeStyle(_ text: String, _ value: String) -> NSAttributedString? {
         let attributedString = NSMutableAttributedString(string: text, attributes: [
             .font: UIFont.appRegularFont(ofSize: .large),
             .foregroundColor: UIColor.lightGray
@@ -53,10 +53,22 @@ class SimulationResultView: UIView {
         return attributedString
     }
 
+    // MARK: - Public Methods
     func setupView(viewModel: SimulationResponse?) {
-        netAmount.text = "R$ \(viewModel?.netAmount ?? 0)"
-        initialValue.text = "R$ \(viewModel?.investmentParameter?.investedAmount ?? 0)"
-        grossInvestment.text = "R$ \(viewModel?.grossAmount ?? 0)"
-        totalIncomeText = "R$ \(viewModel?.grossAmountProfit ?? 0)"
+        guard let viewModel = viewModel else { return }
+        simulationTotal.text = viewModel.grossAmount.toCoin()
+        totalIncomeText = viewModel.grossAmountProfit.toCoin()
+        initialValue.text = viewModel.investmentParameter?.investedAmount.toCoin() ?? ""
+        grossInvestment.text = viewModel.grossAmount.toCoin()
+        incomeValue.text = viewModel.grossAmountProfit.toCoin()
+        incomeTax.text = "\(viewModel.taxesAmount.toCoin()) (\(viewModel.taxesRate.toPercent()))"
+        netAmount.text = viewModel.netAmount.toCoin()
+
+        maturityDate.text = viewModel.investmentParameter?.maturityDate
+        maturityTotalDays.text = "\(viewModel.investmentParameter?.maturityTotalDays ?? 0)"
+        monthlyGrossRateProfit.text = viewModel.monthlyGrossRateProfit.toPercent()
+        rate.text = viewModel.investmentParameter?.rate.toPercent()
+        annualGrossRateProfit.text = viewModel.annualGrossRateProfit.toPercent()
+        rateProfit.text = viewModel.rateProfit.toPercent()
     }
 }

@@ -121,7 +121,7 @@ final class ShimmerConstants {
             baseView.layer.cornerRadius = ShimmerConstants.kCornerRadius
             baseView.layer.masksToBounds = true
             view?.addSubview(baseView)
-            view?.bringSubview(toFront: baseView)
+            view?.bringSubviewToFront(baseView)
             baseView.accessibilityIdentifier = ShimmerConstants.kIdViewShimmer
             baseView.startShimmering()
         }

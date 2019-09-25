@@ -13,7 +13,6 @@ class SimulationResultViewController: UIViewController, ViewCustomizable {
     // MARK: - Properties
     var viewModel: SimulationResultViewModelProtocol?
     private lazy var shimmerView = SimulationResultShimmerView.fromNib(withOwner: self) as SimulationResultShimmerView?
-//    private lazy var errorView = GenericErrorView.fromNib(withOwner: self) as GenericErrorView?
 
     // MARK: - Life Cycles
     override func viewDidLoad() {

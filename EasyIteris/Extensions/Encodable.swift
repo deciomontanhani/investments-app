@@ -29,15 +29,4 @@ extension Encodable {
         guard let data = try? JSONEncoder().encode(self) else { return nil }
         return data
     }
-
-    func urlQuery() -> [String]? {
-        if let json = encodedDictionary {
-            return json.map { par -> String in
-                let value = String(describing: par.1) != "" ? String(describing: par.1) : "null"
-                if value == "null" { return "" }
-                return "\(par.0)=\(value)"
-            }
-        }
-        return nil
-    }
 }
