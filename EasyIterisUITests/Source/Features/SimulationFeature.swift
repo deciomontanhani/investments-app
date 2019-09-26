@@ -27,13 +27,14 @@ class SimulationFeature: BaseFeature {
         }
 
         when("Quando clico em 'simular'") {
+            HTTPDynamicStubs.shared.setupStub(HTTPStubModel(urlPath: .simulate, jsonFileName: "simulate", delay: 1.0))
             formScreen.tapElement(element: formScreen.simulateButton)
         }
 
         then("Então vejo a tela da simulação") {
             let resultScreen = SimulationResultScreen(feature: self)
-
             resultScreen.waitScreen(timeout: 2.0)
+            self.verifySnapshotView(delay: 1.0)
         }
     }
 }

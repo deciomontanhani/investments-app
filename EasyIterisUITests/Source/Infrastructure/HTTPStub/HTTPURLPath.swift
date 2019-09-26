@@ -8,5 +8,5 @@
 import Foundation
 
 enum HTTPURLPath: String {
-    case login = "/v1/login"
+    case simulate = "/calculator/simulate?investedAmount=1000&index=CDI&maturityDate=2023-09-26&rate=100&isTaxFree=0"
 }

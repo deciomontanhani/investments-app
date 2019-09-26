@@ -22,7 +22,7 @@ class SimulationResultBusiness: SimulationResultBusinessProtocol {
 
     func getSimulation(queryObject: SimulationQueryRequest,
                        _ completion: @escaping ((Result<SimulationResponse>) -> Void)) {
-        let resource = Resource(url: URL(string: "\(Constants.ApiServer.BaseURL)/calculator/simulate")!)
+        let resource = Resource(url: URL(string: "\(Constants.ApiServer.BaseUrl)/calculator/simulate")!)
         let params = queryObject.encodedStringDictionary
 
         apiClient?.get(url: resource.url, params: params) { (result: Result<SimulationResponse>) in

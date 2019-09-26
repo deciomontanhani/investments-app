@@ -9,6 +9,13 @@ import Foundation
 
 struct Constants {
     struct ApiServer {
+
+        static var BaseUrl: String {
+            guard let url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as? String else {
+                return ""
+            }
+            return url
+        }
         static let BaseURL = "https://api-simulator-calc.easynvest.com.br"
     }
     struct Messages {
