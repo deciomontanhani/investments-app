@@ -47,7 +47,13 @@ struct SimulationInvestmentParameter: Codable {
         }
     }
 
-    init(investedAmount: Double, isTaxFree: Bool, maturityBusinessDays: Int, maturityDate: String, maturityTotalDays: Int, rate: Double, yearlyInterestRate: Double) {
+    init(investedAmount: Double,
+         isTaxFree: Bool,
+         maturityBusinessDays: Int,
+         maturityDate: String,
+         maturityTotalDays: Int,
+         rate: Double,
+         yearlyInterestRate: Double) {
         self.investedAmount = investedAmount
         self.isTaxFree = isTaxFree
         self.maturityBusinessDays = maturityBusinessDays

@@ -13,7 +13,7 @@ class SimulationFormViewControllerTests: BaseXCTest {
 
     override func setUp() {
         super.setUp()
-
+        
         let controller = SimulationFormViewController.instantiate()
         let navigation = UINavigationController(rootViewController: controller)
         let expectation = XCTestExpectation(description: "SimulationFormViewController loaded")

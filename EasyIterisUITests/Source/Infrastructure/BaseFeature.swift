@@ -16,7 +16,6 @@ class BaseFeature: Feature {
     // MARK: - Constants
 
     let app = XCUIApplication()
-    private let defaultLaunchArguments = ["UITest"]
     private let kMaxTolerance: CGFloat = 0.02
 
     // MARK: Overriding
@@ -25,7 +24,6 @@ class BaseFeature: Feature {
         super.setUp()
         continueAfterFailure = true
         XCUIDevice.shared.orientation = .portrait
-        checkPermissionAlerts()
         HTTPDynamicStubs.shared.setUp()
 
         newLaunchArguments()
@@ -41,12 +39,7 @@ class BaseFeature: Feature {
         if app.state == .runningForeground {
             app.terminate()
         }
-        app.launchArguments = defaultLaunchArguments
-        arguments?.forEach {
-            let argumentValue: String = "\(type(of: $0.value))<:>\($0.value)"
-            let key: String = "UITest:\($0.key)"
-            app.launchEnvironment[key] = argumentValue
-        }
+        
         app.launch()
     }
 
@@ -135,17 +128,6 @@ class BaseFeature: Feature {
 
     private func performOperation(_ operation: FeatureOperation, description: String) {
         XCTContext.runActivity(named: description) { _ in operation() }
-    }
-
-    private func checkPermissionAlerts() {
-        addUIInterruptionMonitor(withDescription: "Location") { alert -> Bool in
-            alert.buttons["Allow"].tapElement()
-            return true
-        }
-        addUIInterruptionMonitor(withDescription: "Notifications") { alert -> Bool in
-            alert.buttons["Allow"].tapElement()
-            return true
-        }
     }
 
     private func customFolderName(file: StaticString) -> String {

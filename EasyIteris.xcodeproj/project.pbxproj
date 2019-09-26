@@ -73,6 +73,11 @@
 		204F3981233BDF5300A6223B /* BaseCollectionViewXCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F3970233BDF5300A6223B /* BaseCollectionViewXCTest.swift */; };
 		204F3983233BDF5300A6223B /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F3972233BDF5300A6223B /* TestUtils.swift */; };
 		204F3987233BE21900A6223B /* LocalJsonReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F3967233BDF5300A6223B /* LocalJsonReader.swift */; };
+		20556919233CC0CE009B1257 /* SimulationResultBusinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20556918233CC0CE009B1257 /* SimulationResultBusinessTests.swift */; };
+		20556921233CC7F7009B1257 /* SimulationFormScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20556920233CC7F7009B1257 /* SimulationFormScreen.swift */; };
+		20556923233CC807009B1257 /* SimulationResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20556922233CC807009B1257 /* SimulationResultScreen.swift */; };
+		20556925233CC8F0009B1257 /* simulate.json in Resources */ = {isa = PBXBuildFile; fileRef = 20556924233CC8F0009B1257 /* simulate.json */; };
+		20556927233CC90C009B1257 /* SimulationFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20556926233CC90C009B1257 /* SimulationFeature.swift */; };
 		209F3623233BEE4900796E05 /* MockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F3620233BEE4900796E05 /* MockViewController.swift */; };
 		209F3624233BEE4900796E05 /* MockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F3620233BEE4900796E05 /* MockViewController.swift */; };
 		209F3625233BEE4900796E05 /* MockCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F3621233BEE4900796E05 /* MockCollectionViewController.swift */; };
@@ -182,6 +187,11 @@
 		204F396F233BDF5300A6223B /* FatalErrorUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatalErrorUtil.swift; sourceTree = "<group>"; };
 		204F3970233BDF5300A6223B /* BaseCollectionViewXCTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewXCTest.swift; sourceTree = "<group>"; };
 		204F3972233BDF5300A6223B /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
+		20556918233CC0CE009B1257 /* SimulationResultBusinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultBusinessTests.swift; sourceTree = "<group>"; };
+		20556920233CC7F7009B1257 /* SimulationFormScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationFormScreen.swift; sourceTree = "<group>"; };
+		20556922233CC807009B1257 /* SimulationResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultScreen.swift; sourceTree = "<group>"; };
+		20556924233CC8F0009B1257 /* simulate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simulate.json; sourceTree = "<group>"; };
+		20556926233CC90C009B1257 /* SimulationFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationFeature.swift; sourceTree = "<group>"; };
 		209F3620233BEE4900796E05 /* MockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockViewController.swift; sourceTree = "<group>"; };
 		209F3621233BEE4900796E05 /* MockCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCollectionViewController.swift; sourceTree = "<group>"; };
 		209F3622233BEE4900796E05 /* MockTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTableViewController.swift; sourceTree = "<group>"; };
@@ -431,6 +441,9 @@
 		204F3945233BD4D400A6223B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2055691F233CC7DF009B1257 /* Mocks */,
+				2055691E233CC7CE009B1257 /* Screens */,
+				2055691D233CC790009B1257 /* Features */,
 				204F3946233BD4F200A6223B /* Infrastructure */,
 			);
 			path = Source;
@@ -544,10 +557,44 @@
 		204F3986233BE04100A6223B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				20556917233CC0B1009B1257 /* Business */,
 				209F363C233C0DD400796E05 /* ViewModels */,
 				209F363B233C0DC300796E05 /* Controllers */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		20556917233CC0B1009B1257 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				20556918233CC0CE009B1257 /* SimulationResultBusinessTests.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		2055691D233CC790009B1257 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				20556926233CC90C009B1257 /* SimulationFeature.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2055691E233CC7CE009B1257 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				20556920233CC7F7009B1257 /* SimulationFormScreen.swift */,
+				20556922233CC807009B1257 /* SimulationResultScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2055691F233CC7DF009B1257 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				20556924233CC8F0009B1257 /* simulate.json */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		209F361F233BEE4900796E05 /* ViewController */ = {
@@ -737,6 +784,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20556925233CC8F0009B1257 /* simulate.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,6 +993,7 @@
 				209F3625233BEE4900796E05 /* MockCollectionViewController.swift in Sources */,
 				209F3634233C014400796E05 /* SimulationResultViewControllerTests.swift in Sources */,
 				204F397F233BDF5300A6223B /* ApiRequestMock.swift in Sources */,
+				20556919233CC0CE009B1257 /* SimulationResultBusinessTests.swift in Sources */,
 				209F3623233BEE4900796E05 /* MockViewController.swift in Sources */,
 				204F397B233BDF5300A6223B /* MockType.swift in Sources */,
 				209F3629233BF0B900796E05 /* UIImage.swift in Sources */,
@@ -967,11 +1016,14 @@
 				204F395C233BD4F200A6223B /* BaseFeature.swift in Sources */,
 				204F3959233BD4F200A6223B /* HTTPURLPath.swift in Sources */,
 				209F3624233BEE4900796E05 /* MockViewController.swift in Sources */,
+				20556927233CC90C009B1257 /* SimulationFeature.swift in Sources */,
 				204F3987233BE21900A6223B /* LocalJsonReader.swift in Sources */,
 				204F3958233BD4F200A6223B /* DeviceNameEnum.swift in Sources */,
 				209F3628233BEE4900796E05 /* MockTableViewController.swift in Sources */,
 				204F395A233BD4F200A6223B /* HTTPDynamicStubs.swift in Sources */,
 				209F3626233BEE4900796E05 /* MockCollectionViewController.swift in Sources */,
+				20556923233CC807009B1257 /* SimulationResultScreen.swift in Sources */,
+				20556921233CC7F7009B1257 /* SimulationFormScreen.swift in Sources */,
 				204F395B233BD4F200A6223B /* HTTPStubModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1125,6 +1177,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5429XEL3R5;
 				INFOPLIST_FILE = EasyIteris/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1144,6 +1197,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5429XEL3R5;
 				INFOPLIST_FILE = EasyIteris/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
