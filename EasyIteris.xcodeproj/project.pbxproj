@@ -93,8 +93,8 @@
 		209F363A233C08A000796E05 /* SimulationResultBusinessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F3639233C08A000796E05 /* SimulationResultBusinessMock.swift */; };
 		209F363E233C0DEF00796E05 /* SimulationResultViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F363D233C0DEF00796E05 /* SimulationResultViewModelTests.swift */; };
 		20EBA8E3233CEFAE00E44FE4 /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBA8E2233CEFAE00E44FE4 /* EncodableTests.swift */; };
-		260827A116B41A31749FC879 /* Pods_EasyIterisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */; };
-		65D8AE6CCB66098EBB81AEFE /* Pods_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */; };
+		372F64D3B4407C3E5AB637C6 /* Pods_EasyIterisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0464C80BA2DF427AAC4E6227 /* Pods_EasyIterisTests.framework */; };
+		493B5B8558EC140CBD5A246C /* Pods_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478E168107528413FA7CC1D2 /* Pods_EasyIterisUITests.framework */; };
 		978081C2B4D3A6D3AA323DA4 /* Pods_EasyIteris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */; };
 /* End PBXBuildFile section */
 
@@ -116,7 +116,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0464C80BA2DF427AAC4E6227 /* Pods_EasyIterisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F389B233509A600A6223B /* EasyIteris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyIteris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F389E233509A600A6223B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		204F38A5233509A900A6223B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -204,8 +204,8 @@
 		209F3639233C08A000796E05 /* SimulationResultBusinessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultBusinessMock.swift; sourceTree = "<group>"; };
 		209F363D233C0DEF00796E05 /* SimulationResultViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultViewModelTests.swift; sourceTree = "<group>"; };
 		20EBA8E2233CEFAE00E44FE4 /* EncodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodableTests.swift; sourceTree = "<group>"; };
-		22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.release.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.release.xcconfig"; sourceTree = "<group>"; };
+		478E168107528413FA7CC1D2 /* Pods_EasyIterisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.release.xcconfig"; sourceTree = "<group>"; };
 		73A322B4EF409818C4DCDD9F /* Pods-EasyIterisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyIterisUITests/Pods-EasyIterisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIteris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,7 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260827A116B41A31749FC879 /* Pods_EasyIterisTests.framework in Frameworks */,
+				372F64D3B4407C3E5AB637C6 /* Pods_EasyIterisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +235,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D8AE6CCB66098EBB81AEFE /* Pods_EasyIterisUITests.framework in Frameworks */,
+				493B5B8558EC140CBD5A246C /* Pods_EasyIterisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +246,8 @@
 			isa = PBXGroup;
 			children = (
 				7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */,
-				22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */,
-				127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */,
+				0464C80BA2DF427AAC4E6227 /* Pods_EasyIterisTests.framework */,
+				478E168107528413FA7CC1D2 /* Pods_EasyIterisUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -687,7 +687,7 @@
 				204F38AB233509A900A6223B /* Sources */,
 				204F38AC233509A900A6223B /* Frameworks */,
 				204F38AD233509A900A6223B /* Resources */,
-				56E198F8E9666ADE00F0DBF6 /* [CP] Embed Pods Frameworks */,
+				81B6ECF23F1523D4850492D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -707,7 +707,7 @@
 				204F38B6233509A900A6223B /* Sources */,
 				204F38B7233509A900A6223B /* Frameworks */,
 				204F38B8233509A900A6223B /* Resources */,
-				585B87209957D7E8A5D185A8 /* [CP] Embed Pods Frameworks */,
+				3161BDA8CB12D9F43D7AC924 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -813,24 +813,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		56E198F8E9666ADE00F0DBF6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		585B87209957D7E8A5D185A8 /* [CP] Embed Pods Frameworks */ = {
+		3161BDA8CB12D9F43D7AC924 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -867,6 +850,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		81B6ECF23F1523D4850492D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		AA8077179A5926D0830479BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
