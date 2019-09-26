@@ -62,22 +62,22 @@ class SimulationFormView: UIView {
 
     func showDatePicker() {
         //Formate Date
-        datePicker.accessibilityIdentifier = "formDatePicker"
-        datePicker.locale = Locale(identifier: "pt-br")
+        datePicker.accessibilityIdentifier = Localizable.datePickerIdentifier.localize()
+        datePicker.locale = Locale(identifier: Localizable.brasilLocale.localize())
         datePicker.datePickerMode = .date
         datePicker.minimumDate = Date()
 
         //ToolBar
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
-        let doneButton = UIBarButtonItem(title: "Finalizar",
+        let doneButton = UIBarButtonItem(title: Localizable.doneButtonDatePicker.localize(),
                                          style: .plain,
                                          target: self,
                                          action: #selector(doneDatePicker))
         let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace,
                                           target: nil,
                                           action: nil)
-        let cancelButton = UIBarButtonItem(title: "Cancelar",
+        let cancelButton = UIBarButtonItem(title: Localizable.cancelButtonDatePicker.localize(),
                                            style: .plain,
                                            target: self,
                                            action: #selector(cancelDatePicker))

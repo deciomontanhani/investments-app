@@ -9,3 +9,7 @@
 "totalIncomeLabel" = "Rendimento total de R$ %@";
 "errorTitle" = "Erro!";
 "backButton" = "Voltar";
+"datePickerIdentifier" = "formDatePicker";
+"brasilLocale" = "pt-br";
+"doneButtonDatePicker" = "Finalizar";
+"cancelButtonDatePicker" = "Cancelar";

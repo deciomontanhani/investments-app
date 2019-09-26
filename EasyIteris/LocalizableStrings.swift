@@ -12,7 +12,10 @@ enum Localizable: String {
     case totalIncomeLabel
     case errorTitle
     case backButton
-
+    case datePickerIdentifier
+    case brasilLocale
+    case doneButtonDatePicker
+    case cancelButtonDatePicker
     // MARK: - Public Methods
 
     func localize() -> String {

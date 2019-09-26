@@ -67,7 +67,6 @@ class SimulationResultViewController: UIViewController, ViewCustomizable {
         }
         shimmerViewUnw.frame = view.bounds
         view.addSubview(shimmerViewUnw)
-//        view.bringSubview(toFront: view)
     }
 
     static func instantiate(viewModel: SimulationResultViewModelProtocol) -> SimulationResultViewController {
