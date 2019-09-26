@@ -10,7 +10,6 @@
 		204F389F233509A600A6223B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F389E233509A600A6223B /* AppDelegate.swift */; };
 		204F38A6233509A900A6223B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A5233509A900A6223B /* Assets.xcassets */; };
 		204F38A9233509A900A6223B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F38A7233509A900A6223B /* LaunchScreen.storyboard */; };
-		204F38BF233509A900A6223B /* EasyIterisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38BE233509A900A6223B /* EasyIterisUITests.swift */; };
 		204F38D3233531FF00A6223B /* SimulationFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F38D1233531FF00A6223B /* SimulationFormViewController.swift */; };
 		204F38D4233531FF00A6223B /* SimulationFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204F38D2233531FF00A6223B /* SimulationFormViewController.xib */; };
 		204F38D72335391B00A6223B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 204F38D62335391B00A6223B /* Localizable.strings */; };
@@ -94,8 +93,8 @@
 		209F363E233C0DEF00796E05 /* SimulationResultViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F363D233C0DEF00796E05 /* SimulationResultViewModelTests.swift */; };
 		20EBA8E3233CEFAE00E44FE4 /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBA8E2233CEFAE00E44FE4 /* EncodableTests.swift */; };
 		372F64D3B4407C3E5AB637C6 /* Pods_EasyIterisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0464C80BA2DF427AAC4E6227 /* Pods_EasyIterisTests.framework */; };
-		493B5B8558EC140CBD5A246C /* Pods_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478E168107528413FA7CC1D2 /* Pods_EasyIterisUITests.framework */; };
 		978081C2B4D3A6D3AA323DA4 /* Pods_EasyIteris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */; };
+		E75BD8ABB85F5911C66C33E3 /* Pods_EasyIteris_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB37D670247AB1E452F4C8AE /* Pods_EasyIteris_EasyIterisUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,7 +124,6 @@
 		204F38AF233509A900A6223B /* EasyIterisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyIterisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F38B5233509A900A6223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		204F38BA233509A900A6223B /* EasyIterisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyIterisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		204F38BE233509A900A6223B /* EasyIterisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyIterisUITests.swift; sourceTree = "<group>"; };
 		204F38C0233509A900A6223B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		204F38D1233531FF00A6223B /* SimulationFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationFormViewController.swift; sourceTree = "<group>"; };
 		204F38D2233531FF00A6223B /* SimulationFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimulationFormViewController.xib; sourceTree = "<group>"; };
@@ -205,13 +203,15 @@
 		209F363D233C0DEF00796E05 /* SimulationResultViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultViewModelTests.swift; sourceTree = "<group>"; };
 		20EBA8E2233CEFAE00E44FE4 /* EncodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodableTests.swift; sourceTree = "<group>"; };
 		28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.release.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.release.xcconfig"; sourceTree = "<group>"; };
-		478E168107528413FA7CC1D2 /* Pods_EasyIterisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.release.xcconfig"; sourceTree = "<group>"; };
 		73A322B4EF409818C4DCDD9F /* Pods-EasyIterisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyIterisUITests/Pods-EasyIterisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIteris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A78B89EE937FA705A0AB06 /* Pods-EasyIterisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisUITests/Pods-EasyIterisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9ED6B85CF8CE1A3ACF2FE1B0 /* Pods-EasyIteris-EasyIterisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris-EasyIterisUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyIteris-EasyIterisUITests/Pods-EasyIteris-EasyIterisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB37D670247AB1E452F4C8AE /* Pods_EasyIteris_EasyIterisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIteris_EasyIterisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93BF50900B59D9028C78AFB /* Pods-EasyIteris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.debug.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.debug.xcconfig"; sourceTree = "<group>"; };
 		D19D7DBB0C5D6A45583072D8 /* Pods-EasyIterisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1FAFCB95785DCAA299A357 /* Pods-EasyIteris-EasyIterisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris-EasyIterisUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyIteris-EasyIterisUITests/Pods-EasyIteris-EasyIterisUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,7 +235,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493B5B8558EC140CBD5A246C /* Pods_EasyIterisUITests.framework in Frameworks */,
+				E75BD8ABB85F5911C66C33E3 /* Pods_EasyIteris_EasyIterisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +247,7 @@
 			children = (
 				7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */,
 				0464C80BA2DF427AAC4E6227 /* Pods_EasyIterisTests.framework */,
-				478E168107528413FA7CC1D2 /* Pods_EasyIterisUITests.framework */,
+				BB37D670247AB1E452F4C8AE /* Pods_EasyIteris_EasyIterisUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -305,7 +305,6 @@
 			isa = PBXGroup;
 			children = (
 				204F3945233BD4D400A6223B /* Source */,
-				204F38BE233509A900A6223B /* EasyIterisUITests.swift */,
 				204F38C0233509A900A6223B /* Info.plist */,
 			);
 			path = EasyIterisUITests;
@@ -652,6 +651,8 @@
 				5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */,
 				73A322B4EF409818C4DCDD9F /* Pods-EasyIterisUITests.debug.xcconfig */,
 				93A78B89EE937FA705A0AB06 /* Pods-EasyIterisUITests.release.xcconfig */,
+				9ED6B85CF8CE1A3ACF2FE1B0 /* Pods-EasyIteris-EasyIterisUITests.debug.xcconfig */,
+				DE1FAFCB95785DCAA299A357 /* Pods-EasyIteris-EasyIterisUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -819,15 +820,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyIterisUITests/Pods-EasyIterisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EasyIteris-EasyIterisUITests/Pods-EasyIteris-EasyIterisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyIterisUITests/Pods-EasyIterisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EasyIteris-EasyIterisUITests/Pods-EasyIteris-EasyIterisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyIterisUITests/Pods-EasyIterisUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyIteris-EasyIterisUITests/Pods-EasyIteris-EasyIterisUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6FB899924E17E9FEA6D98BCF /* [CP] Check Pods Manifest.lock */ = {
@@ -883,7 +884,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EasyIterisUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EasyIteris-EasyIterisUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1014,7 +1015,6 @@
 				204F3955233BD4F200A6223B /* ElementExtension.swift in Sources */,
 				204F395D233BD4F200A6223B /* BaseScreen.swift in Sources */,
 				204F3956233BD4F200A6223B /* UIImage.swift in Sources */,
-				204F38BF233509A900A6223B /* EasyIterisUITests.swift in Sources */,
 				204F3954233BD4F200A6223B /* Date.swift in Sources */,
 				204F3957233BD4F200A6223B /* DateFormatter.swift in Sources */,
 				204F395C233BD4F200A6223B /* BaseFeature.swift in Sources */,
@@ -1259,7 +1259,7 @@
 		};
 		204F38CA233509A900A6223B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73A322B4EF409818C4DCDD9F /* Pods-EasyIterisUITests.debug.xcconfig */;
+			baseConfigurationReference = 9ED6B85CF8CE1A3ACF2FE1B0 /* Pods-EasyIteris-EasyIterisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1283,7 +1283,7 @@
 		};
 		204F38CB233509A900A6223B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93A78B89EE937FA705A0AB06 /* Pods-EasyIterisUITests.release.xcconfig */;
+			baseConfigurationReference = DE1FAFCB95785DCAA299A357 /* Pods-EasyIteris-EasyIterisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";

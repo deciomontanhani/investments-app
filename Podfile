@@ -15,7 +15,7 @@ target 'EasyIteris' do
   end
 
   target 'EasyIterisUITests' do
-    inherit! :search_paths
+    inherit! :complete
     pod 'iOSSnapshotTestCase', '~> 6.0.3'
     pod 'Swifter', '~> 1.4.5'
     # Pods for testing

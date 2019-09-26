@@ -308,6 +308,7 @@
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration" identifier="simulationResultIdentifier"/>
             <constraints>
                 <constraint firstItem="bxK-zc-0h0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DWG-Kr-BLy"/>
                 <constraint firstItem="rfw-dJ-Sx7" firstAttribute="top" secondItem="bxK-zc-0h0" secondAttribute="bottom" constant="10" id="JpS-VO-LV9"/>

@@ -62,6 +62,7 @@ class SimulationFormView: UIView {
 
     func showDatePicker() {
         //Formate Date
+        datePicker.accessibilityIdentifier = "formDatePicker"
         datePicker.locale = Locale(identifier: "pt-br")
         datePicker.datePickerMode = .date
         datePicker.minimumDate = Date()

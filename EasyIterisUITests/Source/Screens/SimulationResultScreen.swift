@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+import Swifter
+import XCTest
+
+class SimulationResultScreen: BaseScreen {
+    override var screen: XCUIElement? {
+        return feature.app.otherElements["simulationResultIdentifier"]
+    }
+}
