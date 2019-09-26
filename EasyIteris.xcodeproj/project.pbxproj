@@ -92,6 +92,7 @@
 		209F3637233C027700796E05 /* SimulationResultViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F3636233C027700796E05 /* SimulationResultViewModelMock.swift */; };
 		209F363A233C08A000796E05 /* SimulationResultBusinessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F3639233C08A000796E05 /* SimulationResultBusinessMock.swift */; };
 		209F363E233C0DEF00796E05 /* SimulationResultViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F363D233C0DEF00796E05 /* SimulationResultViewModelTests.swift */; };
+		20EBA8E3233CEFAE00E44FE4 /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBA8E2233CEFAE00E44FE4 /* EncodableTests.swift */; };
 		260827A116B41A31749FC879 /* Pods_EasyIterisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */; };
 		65D8AE6CCB66098EBB81AEFE /* Pods_EasyIterisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127088F484C2967264EADD9A /* Pods_EasyIterisUITests.framework */; };
 		978081C2B4D3A6D3AA323DA4 /* Pods_EasyIteris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38CCB1CEF4BB28CD77AA70 /* Pods_EasyIteris.framework */; };
@@ -202,6 +203,7 @@
 		209F3636233C027700796E05 /* SimulationResultViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultViewModelMock.swift; sourceTree = "<group>"; };
 		209F3639233C08A000796E05 /* SimulationResultBusinessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultBusinessMock.swift; sourceTree = "<group>"; };
 		209F363D233C0DEF00796E05 /* SimulationResultViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationResultViewModelTests.swift; sourceTree = "<group>"; };
+		20EBA8E2233CEFAE00E44FE4 /* EncodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodableTests.swift; sourceTree = "<group>"; };
 		22BCDC17E25629292198663B /* Pods_EasyIterisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIterisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28613C077AB3ED099D32C791 /* Pods-EasyIteris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIteris.release.xcconfig"; path = "Target Support Files/Pods-EasyIteris/Pods-EasyIteris.release.xcconfig"; sourceTree = "<group>"; };
 		5CF73F1C5EB93D405FD1B3BC /* Pods-EasyIterisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyIterisTests.release.xcconfig"; path = "Target Support Files/Pods-EasyIterisTests/Pods-EasyIterisTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -430,6 +432,7 @@
 		204F393E233BC46F00A6223B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				20EBA8E2233CEFAE00E44FE4 /* EncodableTests.swift */,
 				204F393F233BC48600A6223B /* StringTests.swift */,
 				204F3941233BC49A00A6223B /* DoubleTests.swift */,
 				209F362A233BF6C200796E05 /* NSObjectTests.swift */,
@@ -985,6 +988,7 @@
 				204F3974233BDF5300A6223B /* FunctionMock.swift in Sources */,
 				209F362B233BF6C200796E05 /* NSObjectTests.swift in Sources */,
 				204F3980233BDF5300A6223B /* FatalErrorUtil.swift in Sources */,
+				20EBA8E3233CEFAE00E44FE4 /* EncodableTests.swift in Sources */,
 				209F363E233C0DEF00796E05 /* SimulationResultViewModelTests.swift in Sources */,
 				209F363A233C08A000796E05 /* SimulationResultBusinessMock.swift in Sources */,
 				209F362D233BF8DB00796E05 /* UIButtonTests.swift in Sources */,
